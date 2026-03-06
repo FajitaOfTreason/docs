@@ -83,13 +83,13 @@ Secondary pronouns are **not supported**
 
 ## Parameters
 ::field-group
-  ::field{name="User Login" type=Text required}
+  :::field{name="User Login" type=Text required}
     Twitch username of the user to fetch pronouns for
-  ::
+  :::
 
-  ::field{name="Variable Prefix" type=Text}
+  :::field{name="Variable Prefix" type=Text}
     *Optional* prefix to append to the resulting variables, to allow multiple uses of this sub-action within a single action.
 
     For example, if variable prefix is `user-one`, the resulting variables would consist of `user-one.pronounObject`, `user-one.pronounSubject`, and so on.
-  ::
+  :::
 ::

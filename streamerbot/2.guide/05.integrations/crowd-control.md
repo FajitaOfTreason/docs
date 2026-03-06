@@ -16,23 +16,23 @@ Integrate Streamer.bot with [Crowd Control](https://crowdcontrol.live){target=\_
 
 First, we need to obtain your personal `Overlay URL` from the Crowd Control application, which will allow Streamer.bot to receive events from Crowd Control.
 
-::navigate
+:::navigate
 Navigate to **Overlay > Assets** in the Crowd Control application
-::
+:::
 
 - Click the :kbd{value=Copy} button next to your `Overlay URL`
 
 ### Configure Streamer.bot
 
-::navigate
+:::navigate
 Navigate to **Integrations > Crowd Control** in Streamer.bot
-::
+:::
 
 - Paste the copied URL into the `Overlay URL` text field
 
-::success
+:::success
 Crowd Control is now connected to Streamer.bot!
-::
+:::
 ::
 
 ## Options

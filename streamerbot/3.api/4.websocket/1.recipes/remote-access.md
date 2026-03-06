@@ -108,9 +108,9 @@ Because Tailscale Serve uses HTTPS, the port you use to connect will always be `
 
 **Examples**
 
-::tabs
+:::tabs
 
-:::tabs-item{label="Streamer.bot Client" icon="vscode-icons:file-type-js"}
+::::tabs-item{label="Streamer.bot Client" icon="vscode-icons:file-type-js"}
 
 ```js
 const client = new StreamerbotClient({
@@ -120,9 +120,9 @@ const client = new StreamerbotClient({
 });
 ```
 
-:::
+::::
 
-:::tabs-item{label="Streamer.bot Chat" icon="mdi:chat"}
+::::tabs-item{label="Streamer.bot Chat" icon="mdi:chat"}
 
 You can use Streamer.bot Chat as a browser dock, or from mobile devices at [`chat.streamer.bot`{color=primary}](https://chat.streamer.bot){target=_blank}
 
@@ -134,9 +134,9 @@ To connect securely via Tailscale Serve:
 
 ![Configure Streamer.bot Chat to connect via Tailscale Serve](assets/streamerbot-chat-tailscale.png){width=500}
 
-:::
+::::
 
-::
+:::
 
 :br
 
@@ -146,18 +146,20 @@ Tunneling services allow you to expose your local Streamer.bot instance to the i
 
 ### Cloudflare Tunnel
 
-::read-more{to="https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/"}
+:::read-more{to="https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/"}
 [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/) allows you to securely expose your local servers to the internet.
-::
+:::
 
 ### ngrok
 
-::read-more{to="https://ngrok.com/"}
+:::read-more{to="https://ngrok.com/"}
 [ngrok](https://ngrok.com/) is a popular tool to expose local servers to the internet.
-::
+:::
 
 ### Tailscale Funnel
 
-::read-more{to="https://tailscale.com/kb/1223/funnel"}
+:::read-more{to="https://tailscale.com/kb/1223/funnel"}
 [Tailscale Funnel](https://tailscale.com/kb/1223/funnel) allows you to expose local servers to the internet using Tailscale.
+:::
+
 ::

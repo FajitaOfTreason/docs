@@ -27,9 +27,9 @@ You should see the **Name** field populated with `[Utilities] Parse JSON` with a
 
 Click **Import** to add the Parse JSON Utility to your Streamer.bot instance.
 
-::success
+:::success
 All selected actions will be added to your Streamer.bot installation!
-::
+:::
 
 ::
 

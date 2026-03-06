@@ -25,23 +25,23 @@ Navigate to **Stream Apps > PolyPop**
 
 ## Configuration
 ::field-group
-  ::field{name="Auto Start" type=Toggle}
+  :::field{name="Auto Start" type=Toggle}
   Automatically connect to PolyPop when Streamer.bot starts up
-  ::
+  :::
 
-  ::field{name=Address type=Text required default="127.0.0.1"}
+  :::field{name=Address type=Text required default="127.0.0.1"}
   Enter the host address of your PolyPop Websocket Plugin
 
   - Default: `127.0.0.1`
-  ::
+  :::
 
-  ::field{name=Port type=Number required default="9652"}
+  :::field{name=Port type=Number required default="9652"}
   - Default: `9652`
-  ::
+  :::
 
-  ::field{name=Endpoint type=Text required default="/"}
+  :::field{name=Endpoint type=Text required default="/"}
   - Default: `/`
-  ::
+  :::
 ::
 
 

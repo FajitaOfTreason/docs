@@ -30,15 +30,15 @@ Streamer.bot can be installed on Linux using `wine` and `winetricks`
 Select an installation method below:
 
 ::card-group
-  ::card{title="Install Script" to=#install-script icon=i-mdi-bash}
+  :::card{title="Install Script" to=#install-script icon=i-mdi-bash}
   Install Streamer.bot and its Wine dependencies using a `bash` script
-  ::
-  ::card{title="Bottles" to=/get-started/installation/linux/bottles icon=i-mdi-bottle-wine}
+  :::
+  :::card{title="Bottles" to=/get-started/installation/linux/bottles icon=i-mdi-bottle-wine}
   Install Streamer.bot with Bottles
-  ::
-  ::card{title="Lutris" to=#lutris icon=i-simple-icons-lutris}
+  :::
+  :::card{title="Lutris" to=#lutris icon=i-simple-icons-lutris}
   Install Streamer.bot with Lutris
-  ::
+  :::
 ::
 
 ### Install Script
@@ -52,13 +52,13 @@ View [Streamerbot/sb-linux-installer](https://github.com/Streamerbot/sb-linux-in
   #### Prerequisites
   Install the required dependencies for your Linux distribution
 
-  ::tabs
+  :::tabs
 
-    ::tabs-item{label=Ubuntu icon=i-simple-icons-ubuntu}
+    ::::tabs-item{label=Ubuntu icon=i-simple-icons-ubuntu}
       1. Install `wine`
-          ::read-more{to="https://wiki.winehq.org/Ubuntu"}
+          :::::read-more{to="https://wiki.winehq.org/Ubuntu"}
           Follow the instructions [here](https://wiki.winehq.org/Ubuntu) to install Wine on your version of Ubuntu
-          ::
+          :::::
 
       2. Install `winetricks`
           ```bash [Terminal]
@@ -70,9 +70,9 @@ View [Streamerbot/sb-linux-installer](https://github.com/Streamerbot/sb-linux-in
           ```bash [Terminal]
           sudo apt install git curl
           ```
-    ::
+    ::::
 
-    ::tabs-item{label=Arch icon=i-simple-icons-archlinux}
+    ::::tabs-item{label=Arch icon=i-simple-icons-archlinux}
 
         ```bash [Terminal]
         # Install wine
@@ -84,9 +84,9 @@ View [Streamerbot/sb-linux-installer](https://github.com/Streamerbot/sb-linux-in
         # Install remaining dependencies
         sudo pacman -S git curl
         ```
-    ::
+    ::::
 
-  ::
+  :::
 
   #### Install Streamer.bot
 
@@ -103,9 +103,9 @@ View [Streamerbot/sb-linux-installer](https://github.com/Streamerbot/sb-linux-in
 
   #### Launch Streamer.bot
 
-  ::success
+  :::success
   You can now launch **Streamer.bot** using the created desktop shortcut!
-  ::
+  :::
 ::
 
 ### Bottles

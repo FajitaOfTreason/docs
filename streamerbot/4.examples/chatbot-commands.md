@@ -31,14 +31,14 @@ The following actions and commands will be imported into your Streamer.bot insta
 
 You should then see the **Name** field populated with `Quick Start - Chatbot Example`, and numerous actions and commands to import should now show in the list.
 
-::warning
+:::warning
 For security reasons, all commands are disabled by default. **You must manually enable them before they will work.**
-::
+:::
 
 Click **Import** to finalize your selections
 
-::success
+:::success
 All selected actions will be added to your Streamer.bot installation!
-::
+:::
 
 ::

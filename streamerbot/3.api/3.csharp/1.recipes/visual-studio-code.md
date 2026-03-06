@@ -40,9 +40,9 @@ By following these instructions, you'll be able to write code with linting, whic
 ::steps{level=3}
 ### Create a new Streamer.bot Project Folder
 
-::navigate
+:::navigate
 In **Visual Studio Code**, select `File > Open Folder` from the menu bar
-::
+:::
 
 ![The Open Folder option being selected in VS Code's File menu](assets/vscode-open-folder-menu.png)
 
@@ -52,9 +52,9 @@ Select an existing empty folder, or create a new project folder, and then select
 
 ### Create a `.csproj` File
 
-::navigate
+:::navigate
 Open the `Explorer` view by selecting `View > Explorer` from the menu bar, or use the shortcut :kbd{value=meta} :kbd{value=shift} :kbd{value=E}
-::
+:::
 
 1. Create a new file by right-clicking in the `Explorer` pane and selecting `New File` from the context menu:
 
@@ -68,7 +68,7 @@ Open the `Explorer` view by selecting `View > Explorer` from the menu bar, or us
 
 3. Paste the contents from the code block below into your new `.csproj` file:
 
-  ::code-collapse
+  :::code-collapse
   ```xml [StreamerBot.csproj]
   <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
@@ -107,28 +107,28 @@ Open the `Explorer` view by selecting `View > Explorer` from the menu bar, or us
     </ItemGroup>
   </Project>
   ```
-  ::
+  :::
 
 <br>
 
 4. Replace the value of the `<StreamerBotPath>`{lang=xml} xml tag to point to your Streamer.bot directory and save the file.
 
-::warning
+:::warning
 Do not use quotes around your Streamer.bot directory path, even if it contains spaces.
-::
+:::
 
-::note
+:::note
 **Notes about `StreamerBot.csproj`**
 - This file includes the Streamer.bot using statements in every `.cs` file automatically
 - This file configures the project as a `.NET Framework 4.8.1` project
 - To point to your own Streamer.bot DLLs, replace the contents of `<StreamerBotPath>` with the path to your own Streamer.bot directory (containing `Streamer.bot.exe` and `.dll` files)
-::
+:::
 
 ### Create a .cs File
 
-::navigate
+:::navigate
 Open the `Explorer` view by selecting `View > Explorer` from the menu bar, or use the shortcut :kbd{value=meta} :kbd{value=shift} :kbd{value=E}
-::
+:::
 
 Create a new file ending with the `.cs` extension. This is the file we will use for our C# Code action:
 
@@ -136,7 +136,7 @@ Create a new file ending with the `.cs` extension. This is the file we will use 
 
 Paste the `C# Code Example` below into your `.cs` file, replacing `UniqueClassName` with your filename
 
-::code-collapse
+:::code-collapse
 ```cs [UniqueClassName.cs]
 using System;
 
@@ -155,12 +155,12 @@ public class CPHInline
     }
 }
 ```
-::
+:::
 
-::read-more{to=#file-template-snippet}
+:::read-more{to=#file-template-snippet}
 You can also create a snippet to make scaffolding new files easier.
 See the [File Template Snippet](#file-template-snippet) section below for more information.
-::
+:::
 
 #### `.cs` Notes
 
@@ -206,9 +206,9 @@ When you code is ready to run in Streamer.bot, you can copy it into an [Execute 
 ::steps{level=3}
   ### Select your Action
 
-  ::navigate
+  :::navigate
   In **Streamer.bot**, navigate to the `Actions` panel
-  ::
+  :::
 
   - Create or select an existing action
   - Add or select an `Execute C# Code` sub-action
@@ -216,20 +216,20 @@ When you code is ready to run in Streamer.bot, you can copy it into an [Execute 
   ### Copy your C# Code
   - You can copy the entirety of your `.cs` file into Streamer.bot's C# code editor.
 
-  ::tip
+  :::tip
   The preprocessor directives will ensure the VSCode specific sections are not active inside Streamer.bot.
-  ::
+  :::
 
   - Make sure the code compiles successfully by clicking `Compile`
   - Click `Save and Compile`
 
-  ::note
+  :::note
   If you see any errors ending with `(are you missing an assembly reference?)`, click `Find Refs`
-  ::
+  :::
 
-  ::success
+  :::success
   Your code has now been added inside an `Execute C# Code` Sub-Action and is ready to run in your Action!
-  ::
+  :::
 ::
 
 ## Additional Steps

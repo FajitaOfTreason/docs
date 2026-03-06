@@ -11,7 +11,7 @@ navigation.icon: tabler:http-post
 
 Request body `application/json`{.text-muted}
 
-::code-group
+:::code-group
   ```json [Body]
   // Content-Type: application/json
   {
@@ -36,18 +36,18 @@ Request body `application/json`{.text-muted}
     "action": { "name": "My Action" }
   }
   ```
-::
+:::
 
 ::
 
 ### Parameters
 ::field-group
-  ::field{name="action" type=object required=true}
+  :::field{name="action" type=object required=true}
   The Streamer.bot action to trigger, identified by its GUID or name.
-  ::
-  ::field{name="args" type="Dictionary<string, object>"}
+  :::
+  :::field{name="args" type="Dictionary<string, object>"}
   Optional arguments to pass to the action as key-value pairs.
-  ::
+  :::
 ::
 
 ## Response

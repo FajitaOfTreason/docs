@@ -14,7 +14,7 @@ You could use this to check if a command is enabled or disabled. This value is s
 
 ## Parameters
 ::field-group
-  ::field{name=Command type=Dropdown}
+  :::field{name=Command type=Dropdown}
   Select an existing command to get its state
-  ::
+  :::
 ::
